@@ -1,0 +1,86 @@
+<section class="section-wrapper post-w">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <form class="form-horizontal" accept-charset="UTF-8" action="/profile/update/<%= @user.id %>" method="post">
+          <input name="utf8" type="hidden" value="&#x2713;"/>
+          <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>"/>
+
+          <div class="post-author-w">
+            <h3 class="section-header"><%= @user.name %>  </h3>
+
+            <div class="row">
+              <div class="span3">
+                <div class="post-author-photo hidden-phone">
+                  <img alt="Avatar-1" src="http://icons.iconarchive.com/icons/turbomilk/livejournal-10/128/user-male-icon.png">
+                </div>
+                <div class="control-group">
+                  <label class="control-label" for="inputPassword">Profile Picture </label>
+
+                  <div class="controls">
+                    <input name="user[avatar]" type="file"></input>
+
+                  </div>
+
+                </div>
+              </div>
+              <div class="span7" style="margin-left: 0px">
+                <div class="post-author-bio-w">
+
+                  <div class="control-group">
+                    <label class="control-label" for="inputPassword">Name </label>
+
+                    <div class="controls">
+                      <input name="user[name]" type="text" placeholder="<%= @user.name %>" value="<%= @user.name %>"></input>
+
+                    </div>
+
+                  </div>
+
+                  <div class="control-group">
+                    <label class="control-label" for="inputPassword">Address </label>
+
+                    <div class="controls">
+                      <input name="user[address]" type="text" value="<%= @user.address %>" placeholder="<%= @user.address %>" class="input-xxlarge"></input>
+
+                    </div>
+
+                  </div>
+
+                  <div class="control-group">
+                    <label class="control-label" for="inputPassword">Phone </label>
+
+                    <div class="controls">
+                      <input name="user[phone_number]" value="<%= @user.phone_number %>" type="text" placeholder="<%= @user.phone_number %>"></input>
+
+                    </div>
+
+                  </div>
+
+                  <div class="control-group">
+                    <label class="control-label" for="inputPassword">About </label>
+
+                    <div class="controls">
+                      <textarea name="user[bio]" rows="10" cols="8" style="width: 700px"><%= @user.bio %></textarea>
+
+                    </div>
+
+                  </div>
+
+                  <div class="control-group">
+
+                    <input name="commit" type="submit" value="Update Profile" style="margin-left: 200px" class="btn btn-large btn-primary"></input>
+                  </div>
+
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>

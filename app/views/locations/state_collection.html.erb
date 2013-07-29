@@ -1,0 +1,28 @@
+<title>States of India : ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them. <%= @country.description %>"/>
+<meta name="keywords" content="<%= @country.title %> India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+
+
+<link href="/css/bx_styles.css" media="all" rel="stylesheet" type="text/css"/>
+
+<ul class="breadcrumb" style="margin-top: 15px">
+  <li>
+    <a href="/">Home</a>
+  </li>
+  <li class="active">
+    <span>States of <%= @country.title %></span>
+  </li>
+</ul>
+
+<section class="section-wrapper under-slider">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <h3 class="section-header">States of <%= @country.title %></h3>
+      </div>
+      <% @cstates.each do |state| %>
+          <%= main_block(state).html_safe %>
+      <% end %>
+    </div>
+  </div>
+</section>

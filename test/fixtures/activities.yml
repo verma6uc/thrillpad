@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 
+  title: MyString
+  description: MyText
+  slug: MyString
+  is_featured: false
+  is_approved: false
+  city_id: 1
+  price: 1
+  user_id: 1
+
+two:
+  id: 
+  title: MyString
+  description: MyText
+  slug: MyString
+  is_featured: false
+  is_approved: false
+  city_id: 1
+  price: 1
+  user_id: 1

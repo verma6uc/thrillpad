@@ -1,0 +1,28 @@
+<title>Cities of <%= @city.title %>  : ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them. <%= @city.description %>"/>
+<meta name="keywords" content="<%= @city.title %> India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+
+
+<link href="/css/bx_styles.css" media="all" rel="stylesheet" type="text/css"/>
+
+<ul class="breadcrumb" style="margin-top: 15px">
+  <li>
+    <a href="/">Home</a>
+  </li>
+  <li class="active">
+    <span>Places in <%= @city.title %></span>
+  </li>
+</ul>
+
+<section class="section-wrapper under-slider">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <h3 class="section-header">Places in <%= @city.title %></h3>
+      </div>
+      <% @city.places.each do |place| %>
+          <%= main_block(place).html_safe %>
+      <% end %>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,124 @@
+<title>Search Results for <%= @search_term %> : ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them"/>
+<meta name="keywords" content="India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+
+
+<ul class="breadcrumb" style="margin-top: 15px">
+  <li>
+    <a href="/">Home</a>
+  </li>
+  <li class="visible-desktop-inline-block hidden-not-big-desktop">
+    <a href="#"> Search Results</a>
+  </li>
+
+  <li class="active">
+    <span><%= @search_term %></span>
+  </li>
+</ul>
+<div class="container">
+</div>
+<section class="section-wrapper post-w">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="single-post-w">
+          <h1 class="post-title">Search Results for "<%= @search_term %>" </h1>
+
+          <div style="float: right">
+            <form class="navbar-search pull-right fancy-form" action="/searchl/searchplace" method="post">
+              <input name="place" class="search-query span2" type="text" placeholder="Locations"
+                     style="width: 300px !important; "/>
+            </form>
+          </div>
+
+          <div class="sub-jumbotron">
+            <div class="container-fluid">
+              <ul class="nav nav-tabs two-tabs fancy">
+
+                <% if (@states.size !=0) %>
+                    <li class="active"><a href="#tab1" data-toggle="tab">States</a></li>
+                <% end %>
+
+                <% if (@cities.size !=0) %>
+                    <li class=""><a href="#tab2" data-toggle="tab">Cities</a></li>
+                <% end %>
+                <% if (@places.size !=0) %>
+                    <li class=""><a href="#tab2" data-toggle="tab">Places of Inetrest</a></li>
+                <% end %>
+                <% if (@acts.size !=0) %>
+                    <li class=""><a href="#tab2" data-toggle="tab">Activities</a></li>
+                <% end %>
+
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+            <% for state in @states %>
+                <div class="tab-pane active" id="tab1">
+                  <div class="span3" style="margin-left: 10px; height:  370px">
+                    <div class="white-card">
+                      <div class="img-w hover-fader">
+                        <a href="/locations/<%= state.slug %>" title="<%= state.title %>">
+                          <img alt="<%= state.title %>" src="<%= state.image1.thumb %>" style="width: 250px; height: 188px"/>
+                        <span class="hover-fade">
+                          <i class="icon-zoom-in"></i>
+                        </span>
+                        </a></div>
+                      <h5><%= state.title %></h5>
+                      <% if !(state.description.nil?) %>
+                          <p><%= state.description.truncate(100) %></p>
+                      <% end %>
+                    </div>
+                  </div>
+                </div>
+            <% end %>
+
+            <% for city in @cities %>
+                <div class="tab-pane active" id="tab1">
+                  <div class="span3" style="margin-left: 10px; height:  370px">
+                    <div class="white-card">
+                      <div class="img-w hover-fader">
+                        <a href="/locations/<%= city.state.country.slug %>/<%= city.state.slug %>/<%= city.slug %>" title="<%= city.title %>">
+                          <img alt="<%= city.state.title %>" src="<%= city.image1.thumb %>" style="width: 250px; height: 188px"/>
+                        <span class="hover-fade">
+                          <i class="icon-zoom-in"></i>
+                        </span>
+                        </a></div>
+                      <h5><%= city.title %></h5>
+
+                      <p><%= city.description.truncate(100) %></p>
+                    </div>
+                  </div>
+                </div>
+            <% end %>
+
+
+            <% for place in @places %>
+                <div class="tab-pane active" id="tab1">
+                  <div class="span3" style="margin-left: 10px; height:  370px">
+                    <div class="white-card">
+                      <div class="img-w hover-fader">
+                        <a href="/locations/<%= place.slug %>" title="<%= place.title %>">
+                          <img alt="<%= place.title %>" src="<%= place.image1.thumb %>" style="width: 250px; height: 188px"/>
+                        <span class="hover-fade">
+                          <i class="icon-zoom-in"></i>
+                        </span>
+                        </a></div>
+                      <h5><%= place.title %></h5>
+
+                      <p><%= place.description.truncate(100) %></p>
+                    </div>
+                  </div>
+                </div>
+            <% end %>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

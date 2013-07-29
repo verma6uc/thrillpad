@@ -1,0 +1,112 @@
+<footer>
+  <div class="pre-footer">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <div class="footer-logo">
+            <a>Thrill<strong>Pad</strong></a>
+          </div>
+          <ul class="footer-address">
+            <li>
+              <strong>Address:</strong>
+              136, Singasandra <br>
+              Bangalore
+            </li>
+            <li>
+              <strong>Phone:</strong>
+              <%= @foo %>
+            </li>
+
+          </ul>
+        </div>
+        <div class="span10">
+          <ul id="myTab" class="nav nav-tabs">
+            <li class=" footer-header active"><a href="#states" data-toggle="tab">States</a></li>
+            <li class="footer-header"><a href="#cities" data-toggle="tab">Cities</a></li>
+            <li class="footer-header"><a href="#activities" data-toggle="tab">Activities</a></li>
+            <!--   <li class="footer-header"><a href="#hotels" data-toggle="tab">Hotels</a></li> -->
+          </ul>
+
+
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="states">
+              <ul style="background-color: #0097cf; color: #EB5959;background: #008C9E;">
+                <% for state in @states_of_india %>
+                    <li style="float: left; width: 150px; list-style: none">
+                      <a href="/locations/<%= state.country.slug %>/<%= state.slug %>"><%= state.title %></a>
+                    </li>
+                <% end %>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="cities">
+              <ul style="background-color: #0097cf; color: #EB5959;background: #008C9E;">
+                <% for city in @cities_of_india %>
+                    <li style="float: left; width: 150px; list-style: none">
+                      <a href="/locations/<%= city.state.country.slug %>/<%= city.state.slug %>/<%= city.slug %>"><%= city.title %></a>
+                    </li>
+                <% end %>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="activities">
+              <ul style="background-color: #0097cf; color: #EB5959;background: #008C9E;">
+                <% for city in @cities_of_india %>
+                    <li style="float: left; width: 150px; list-style: none">
+                      <a href="/locations/<%= city.state.country.slug %>/<%= city.state.slug %>/<%= city.slug %>"><%= city.title %></a>
+                    </li>
+                <% end %>
+              </ul>
+            </div>
+            <!--
+            <div class="tab-pane fade" id="hotels">
+              <ul  style="background-color: #0097cf; color: #EB5959;background: #008C9E;">
+                <% for city in @cities_of_india %>
+                  <li style="float: left; width: 150px; list-style: none">
+                    <a href="/locations/<%= city.state.country.slug %>/<%= city.state.slug %>/<%= city.slug %>"><%= city.title %></a>
+                  </li>
+                <% end %>
+              </ul>
+            </div> -->
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="deep-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          <div class="copyright">Copyright © 2013 ThrillPad. All rights reserved.</div>
+        </div>
+        <div class="span6">
+          <ul class="footer-links">
+            <li>
+              <a href="/pages/about_us">About Us</a>
+            </li>
+            <li>
+              <a href="/pages/how_it_works">How it Works </a>
+            </li>
+            <li>
+              <a href="/pages/faq">FAQ</a>
+            </li>
+            <li>
+              <a href="/pages/privacy">Policy</a>
+            </li>
+            <li>
+              <a href="/pages/terms">Terms Of Use</a>
+            </li>
+            <li>
+              <a href="/page/contact_us" target="_blank">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

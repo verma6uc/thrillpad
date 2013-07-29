@@ -1,0 +1,109 @@
+<title><%= @activity.title %> : ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them <%= @activity.description %>"/>
+<meta name="keywords" content="<%= @activity.title %>, India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+<ul class="breadcrumb" style="margin-top: 15px">
+  <li>
+    <a href="/">Home</a>
+  </li>
+  <li class="hidden-phone">
+    <a href="/activity/">Activities</a>
+  </li>
+
+  <li class="visible-desktop-inline-block">
+    <a href="/activity/<%= @location.slug %>"><%= @location.title %></a>
+  </li>
+
+  <li class="active">
+    <span><%= @activity.title %></span>
+  </li>
+</ul>
+<section class="section-wrapper post-w">
+  <div class="container">
+    <div class="row">
+      <div class="span8">
+        <div class="single-post-w">
+          <h1 class="post-title"><%= @activity.title %> </h1>
+
+          <div class="post-info">
+            <% if !(@activity.tags.blank?) %>
+              <span class="info-item">
+                Categories:
+                <% @activity.tags.split(",").each_index do |j| %>
+                  <a title="<%= @activity.tags.split(",")[j] %>" class="post-tag" href="/activity/tags/<%= @activity.tags.split(",")[j] %>">
+                    <span class="label label-info"><%= @activity.tags.split(",")[j] %></span>
+                  </a>
+
+                    </span>
+
+              <% end %>
+            <% end %>
+            <span class="info-item">
+              in <a href="/locations/<%= @location.state.country.slug %>/<%= @location.state.slug %>/<%= @location.slug %>" title="<%= @location.slug %>">
+              <span class="label label-warning"><i class="icon-location-arrow"></i>&nbsp;&nbsp;<%= @location.title %></span></a>
+            </span>
+            <span class="pull-right">
+             <a href="#" class="btn btn-small btn-primary" style="margin-right: 30px; margin-top: -5px">Book Now </a>
+            </span>
+
+          </div>
+          <div class="single-post-image bottom decor-image">
+
+          </div>
+          <div class="post-content">
+            <p><%= @activity.description %></p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="span4">
+        <div class="blog-side-bar">
+
+          <div class="blog-flickr-widget widget-tp">
+            <h3>Gallery</h3>
+            <ul class="thumbnails">
+              <li class="span2">
+                <a class="thumbnail" data-rel="lightbox[gallery]" src="<%= @activity.image1 %>" title="<%= @activity.title %>">
+                  <img alt="<%= @activity.title %>" src="<%= @activity.image1.thumb %>">
+                </a>
+              </li>
+              <li class="span2">
+                <a class="thumbnail" data-rel="lightbox[gallery]" src="<%= @activity.image2 %>" title="<%= @activity.title %>">
+                  <img alt="<%= @activity.title %>" src="<%= @activity.image2.thumb %>">
+                </a>
+              </li>
+              <li class="span2">
+                <a class="thumbnail" data-rel="lightbox[gallery]" src="<%= @activity.image3 %>" title="<%= @activity.title %>">
+                  <img alt="<%= @activity.title %>" src="<%= @activity.image3.thumb %>">
+                </a>
+              </li>
+              <li class="span2">
+                <a class="thumbnail" data-rel="lightbox[gallery]" src="<%= @activity.image4 %>" title="<%= @activity.title %>">
+                  <img alt="<%= @activity.title %>" src="<%= @activity.image4.thumb %>">
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+          <div class="blog-categories widget-tp">
+            <h3>
+              <i class="icon-th-list"></i>
+              Other Activities in <%= @location.title %>
+            </h3>
+            <ul>
+              <% @acts.each do |act| %>
+                  <li>
+                    <a href="/activities/<%= act.slug %>  "><%= act.title %></a>
+                  </li>
+              <% end %>
+            </ul>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

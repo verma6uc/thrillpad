@@ -1,0 +1,50 @@
+<section class="section-wrapper stripped">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <h3 class="section-header">My Activities</h3>
+      </div>
+      <% @activities.each_index do |i| %>
+
+          <div class="span4">
+            <div class="white-card recent-post clearfix">
+              <h5 class="recent-post-header">
+                <a href="/activities/<%= @activities[i].slug %>"><%= @activities[i].title.truncate(30) %></a>
+              </h5>
+
+              <div class="post-info clearfix">
+                <div class="pull-left" style="font-size: 15px">
+                <span class="post-date"><a href="/locations/<%= @parent_list[i].slug %>"> <%= @parent_list[i].title %>
+                </a>
+                </span>
+                  र &nbsp;<%= @activities[i].price %> /-
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="post-like"><i class="icon-heart"></i>
+                    <%= @activities[i].price %>
+                  </a></div>
+              </div>
+              <img alt="Photo-card-big-1" class="post-image" src="<%= @activities[i].avatar1.thumb %>"/>
+
+              <p class="post-content separated"><%= @activities[i].description.truncate(130) %></p>
+              <a href="/activities/<%= @activities[i].slug %>" class="btn btn-primary btn-extra">Read More &gt;</a>
+
+              <div style="border-top: 1px solid #5DC4DC; margin-top: 10px; padding-top: 10px">
+                <% if !(@activities[i].tags.blank?) %>
+
+                    <% @activities[i].tags.split(",").each_index do |j| %>
+
+                        <a href="/activities/tags/<%= @activities[i].tags.split(",")[j] %>">
+                          <span class="label label-success" style="margin: 3px; font-size: 14px; font-weight: 100; padding: 5px"><%= @activities[i].tags.split(",")[j] %></span>
+                        </a>
+
+
+                    <% end %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+      <% end %>
+    </div>
+  </div>
+</section>

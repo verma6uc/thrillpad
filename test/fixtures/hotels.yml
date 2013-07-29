@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 
+  title: MyString
+  image1: MyString
+  image2: MyString
+  image3: MyString
+  image4: MyString
+  description: MyText
+  address: MyText
+  city_id: 1
+  map: MyString
+  number_of_rooms: 1
+  check_out: MyString
+  hotel_policies: MyText
+  slug: MyString
+
+two:
+  id: 
+  title: MyString
+  image1: MyString
+  image2: MyString
+  image3: MyString
+  image4: MyString
+  description: MyText
+  address: MyText
+  city_id: 1
+  map: MyString
+  number_of_rooms: 1
+  check_out: MyString
+  hotel_policies: MyText
+  slug: MyString

@@ -1,0 +1,82 @@
+<%= form_for @hotel, html: {class: "form-horizontal", enctype: "multipart/form-data"} do |f| %>
+    <% if @hotel.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@hotel.errors.count, "error") %> prohibited this Activity from being saved:</h2>
+          <ul>
+            <% @hotel.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+    <div class="row-fluid">
+      <div class="span5">
+        <div class="control-group">
+          <label class="control-label" for="title">Title</label>
+
+          <div class="controls">
+            <%= f.text_field :title, :class => 'input-xlarge', :minlength => '10', :maxlength => '50', :required => '' %>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inputEmail">Location of Activity</label>
+
+          <div class="controls">
+            <input class="input-xlarge typeahead" dir="auto" placeholder="location" autocomplete="off" spellcheck="false" id="Activity_title" name="Activity_parent" size="20" type="text"/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inputEmail">Address</label>
+
+          <div class="controls">
+            <%= f.text_field :address, :class => 'input-xlarge', :minlength => '50', :required => '' %>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="inputEmail">Number of Rooms</label>
+
+          <div class="controls">
+            <%= f.number_field :description, :class => 'input-xlarge', :minlength => '1', :required => '' %>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inputEmail">Checkout</label>
+
+          <div class="controls">
+            <%= f.select :check_out, options_for_select([["Select One", ""], "24-Hour Checkout", "10-AM Checkout", "12-AM Checkout"]), :class => 'input-xxlarge', :minlength => '1', :required => '' %>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="inputEmail">Description</label>
+
+          <div class="controls">
+            <%= f.text_area :description, :class => 'input-xlarge', :style => 'height:170px', :minlength => '50', :required => '' %>
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="inputEmail">Hotel Policies</label>
+
+          <div class="controls">
+            <%= f.text_area :hotel_policies, :class => 'input-xlarge', :style => 'height:170px', :minlength => '50', :required => '' %>
+          </div>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="control-group">
+          <label class="control-label" for="inputEmail">Pictures</label>
+
+          <div class="controls">
+            <%= f.file_field :image1 %>
+            <%= f.file_field :image2 %>
+            <%= f.file_field :image3 %>
+            <%= f.file_field :image4 %>
+          </div>
+        </div>
+
+      </div>
+      <input name="commit" type="submit" value="Create Activity" class="btn btn-large btn-primary" style="margin-left: 180px"/>
+    </div>
+<% end %>

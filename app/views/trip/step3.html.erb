@@ -1,0 +1,34 @@
+<title> ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them. <%= @location.description %>"/>
+<meta name="keywords" content="<%= @location.title %> India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+<section class="section-wrapper">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <h3 class="section-header">Choose Places to Visit</h3>
+      </div>
+      <form method="post" name="step3" action="/trip/step4">
+        <input type="hidden" name="city_id" value="<%= @location.id %>"/>
+        <input type="submit" value="Add Places" class="btn btn-primary"> </input>
+
+        <ul class="thumbnails">
+          <% @location.places.each_with_index do |place, index| %>
+              <li class="span3" style="margin: 5px">
+                <div class="thumbnail">
+                  <input name="place_id[]" value="<%= place.id %>" type="checkbox"/>
+                  <img src="<%= place.image1.thumb %>" alt="<%= place.title %>"/>
+
+                  <div class="caption">
+                    <h5><%= place.title %></h5>
+
+                    </p>
+                  </div>
+                </div>
+              </li>
+          <% end %>
+        </ul>
+      </form>
+
+    </div>
+  </div>
+</section>

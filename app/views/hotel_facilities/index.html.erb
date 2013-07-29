@@ -1,0 +1,29 @@
+<h1>Listing hotel_facilities</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Hotel</th>
+    <th>24hr room service</th>
+    <th>Airport transfer</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @hotel_facilities.each do |hotel_facility| %>
+      <tr>
+        <td><%= hotel_facility.id %></td>
+        <td><%= hotel_facility.hotel_id %></td>
+        <td><%= hotel_facility .24hr_room_service %></td>
+        <td><%= hotel_facility.airport_transfer %></td>
+        <td><%= link_to 'Show', hotel_facility %></td>
+        <td><%= link_to 'Edit', edit_hotel_facility_path(hotel_facility) %></td>
+        <td><%= link_to 'Destroy', hotel_facility, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+      </tr>
+  <% end %>
+</table>
+
+<br/>
+
+<%= link_to 'New Hotel facility', new_hotel_facility_path %>

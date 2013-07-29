@@ -1,0 +1,136 @@
+<section class="section-wrapper about-page-w">
+  <div class="container">
+    <h1 class="section-main-header">Create a new Activity</h1>
+
+    <div class="row row-separated">
+      <div class="span8">
+        <%= form_for @Activity, html: {class: "form-horizontal", enctype: "multipart/form-data"} do |f| %>
+            <% if @Activity.errors.any? %>
+                <div id="error_explanation">
+                  <h2><%= pluralize(@Activity.errors.count, "error") %> prohibited this Activity from being saved:</h2>
+                  <ul>
+                    <% @Activity.errors.full_messages.each do |msg| %>
+                        <li><%= msg %></li>
+                    <% end %>
+                  </ul>
+                </div>
+            <% end %>
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Title</label>
+
+              <div class="controls">
+                <%= f.text_field :title, :class => 'input-xxlarge', :minlength => '10', :maxlength => '50', :required => '' %>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Description of Activity</label>
+
+              <div class="controls">
+                <%= f.text_area :description, :class => 'input-xxlarge', :style => 'height:170px', :minlength => '50', :required => '' %>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Location of Activity</label>
+
+              <div class="controls">
+                <input class="input-xxlarge typeahead" dir="auto" placeholder="location" autocomplete="off" spellcheck="false" id="Activity_title" name="Activity_parent" size="30" type="text"/>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Price of Activity</label>
+
+              <div class="controls">
+                <div class="input-prepend input-append">
+                  <span class="add-on">र</span>
+                  <input class="input-xlarge" id="Activity_title" name="activity[price]" style="width: 460px" size="30" type="number" minlength='2' maxlength='5' required=""/>
+                  <span class="add-on">.00</span>
+                </div>
+
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Activity Tags</label>
+
+              <div class="controls">
+                <div class="input-prepend input-append">
+                  <select id="e9" name="Activity_tags[]" tabindex="-1" multiple class="populate select2-offscreen">
+                    <option value="Romantic">Romantic</option>
+                    <option value="Adventurous">Adventurous</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Heritage">Heritage</option>
+                    <option value="Historical">Historical</option>
+                    <option value="Nature">Nature</option>
+                    <option value="Wildlife">Wildlife</option>
+                    <option value="Culinary">Culinary</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Party">Party</option>
+                    <option value="Technolholic">Technolholic</option>
+                    <option value="Movies">Movies</option>
+                    <option value="Festival">Festival</option>
+                    <option value="Family">Family</option>
+                  </select>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="actions">
+              <input name="commit" type="submit" value="Create Activity" class="btn btn-large btn-primary" style="margin-left: 180px"/>
+            </div>
+            </div>
+            <div class="span4">
+              <div class="control-group">
+                <!-- Logic to Add Dates -->
+                <!-- Logic to Add Schedule -->
+
+
+                <div class="field">
+                  <input name="activity[image1]" type="file"> </input>
+                </div>
+
+                <div class="field">
+                  <input name="activity[image2]" type="file"> </input>
+                </div>
+
+                <div class="field">
+                  <input name="activity[image3]" type="file"> </input>
+                </div>
+
+                <div class="field">
+                  <input name="activity[image4]" type="file"> </input>
+                </div>
+
+
+              </div>
+            </div>
+            </div>
+            </div>
+            </section>
+        <% end %>
+
+        <script>
+            // $.validator.setDefaults({
+            //   submitHandler: function() { alert("submitted!"); }
+            // });
+
+            $().ready(function () {
+                $('#timepicker1').timepicker();
+                $("#e9").select2({
+                    placeholder: "Select Categories",
+                    allowClear: true
+                });
+                $('.typeahead').typeahead({
+                    //name: 'location',
+                    prefetch: '/cities.json',
+                    limit: 30
+                });
+
+                // validate the comment form when it is submitted
+                $("#new_Activity").validate();
+
+
+            });
+
+        </script>

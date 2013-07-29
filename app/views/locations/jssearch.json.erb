@@ -1,0 +1,36 @@
+[
+    <%  @locs_p.each_index do |i|  %>
+    <% !if(i==0) %>
+
+    <% else %>
+    ,
+    <% end %>
+    {
+        "name": "<%= @locs_p[i].title %>",
+        "description": "<%= @locs_p[i].description.truncate(80) %>",
+        "language": "<%= @locs_p[i].title %>",
+        "value": "<%= @locs_p[i].city.state.country.slug %>/<%= @locs_p[i].city.state.slug %>/<%= @locs_p[i].city.slug %>/<%= @locs_p[i].slug %>",
+        "tokens": [
+            "<%= @locs_p[i].title %>",
+            "<%= @locs_p[i].title %>"
+        ]
+    }
+    <% end %>
+    <%  @locs_c.each_index do |i|  %>
+    <% !if(i==0) %>
+    ,
+    <% else %>
+    ,
+    <% end %>
+    {
+        "name": "<%= @locs_c[i].title %>",
+        "description": "<%= @locs_c[i].description.truncate(80) %>",
+        "language": "<%= @locs_c[i].title %>",
+        "value": "<%= @locs_c[i].state.country.slug %>/<%= @locs_c[i].state.slug %>/<%= @locs_c[i].slug %>",
+        "tokens": [
+            "<%= @locs_c[i].title %>",
+            "<%= @locs_c[i].title %>"
+        ]
+    }
+    <% end %>
+]

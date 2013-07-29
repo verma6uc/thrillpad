@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @hotel_facility.id %>
+</p>
+
+<p>
+  <b>Hotel:</b>
+  <%= @hotel_facility.hotel_id %>
+</p>
+
+<p>
+  <b>24hr room service:</b>
+  <%= @hotel_facility.24hr_room_service %>
+</p>
+
+<p>
+  <b>Airport transfer:</b>
+  <%= @hotel_facility.airport_transfer %>
+</p>
+
+
+<%= link_to 'Edit', edit_hotel_facility_path(@hotel_facility) %> |
+<%= link_to 'Back', hotel_facilities_path %>

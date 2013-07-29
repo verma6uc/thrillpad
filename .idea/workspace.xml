@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" name="Default" comment="" />
+    <ignored path="ThrillPad.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/trip_controller.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374929851368" ignored="false" />
+    <file path="/step3.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374794024067" ignored="false" />
+    <file path="/routes.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375027136439" ignored="false" />
+    <file path="/step4.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374865641591" ignored="false" />
+    <file path="/step5.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374887669972" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/pages/how_it_works.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/pages/contact_us.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/pages/about_us.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/devise/shared/_links.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/searchl/searchplace.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/hotel_rooms/_form.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/hotel_rooms/index.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262408" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/hotel_facilities/_form.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262409" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/hotel_facilities/index.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262409" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/home/home.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262409" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/home/repos.json" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262409" ignored="false" />
+    <file path="$PROJECT_DIR$/app/views/home/index.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374846262409" ignored="false" />
+    <file path="$PROJECT_DIR$/app/helpers/application_helper.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374865096902" ignored="false" />
+    <file path="$PROJECT_DIR$/app/uploaders/image_uploader.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374865096902" ignored="false" />
+    <file path="$PROJECT_DIR$/app/uploaders/user_avatar_uploader.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374865096902" ignored="false" />
+    <file path="$PROJECT_DIR$/app/uploaders/avatar_uploader.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374865096902" ignored="false" />
+    <file path="/20130726224146_create_trip_hotels.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374878778534" ignored="false" />
+    <file path="/20130726224221_create_trip_entries.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374879409422" ignored="false" />
+    <file path="/20130726223910_create_trips.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374878939805" ignored="false" />
+    <file path="/trip_hotel.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374881616486" ignored="false" />
+    <file path="/trip.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375014129527" ignored="false" />
+    <file path="/trip_entry.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374879868317" ignored="false" />
+    <file path="/hotel.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374973586557" ignored="false" />
+    <file path="/user.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374881637202" ignored="false" />
+    <file path="/slideshow.json.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375015309655" ignored="false" />
+    <file path="/show.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374930263347" ignored="false" />
+    <file path="/city.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374973513801" ignored="false" />
+    <file path="/place.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374967065589" ignored="false" />
+    <file path="/a.dummy" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375025851267" ignored="false" />
+    <file path="/application_controller.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374968985936" ignored="false" />
+    <file path="/production.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374979843598" ignored="false" />
+    <file path="/tp_activity.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374973703318" ignored="false" />
+    <file path="/Gemfile" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374978745569" ignored="false" />
+    <file path="/development.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374979831975" ignored="false" />
+    <file path="/test.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1374979783776" ignored="false" />
+    <file path="/_navigation.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375025794758" ignored="false" />
+    <file path="/users_controller.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375027237349" ignored="false" />
+    <file path="/trips.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375013849764" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375026435447" ignored="false" />
+    <file path="/edit.html.erb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375027179890" ignored="false" />
+    <file path="/state.rb" changelist="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" time="1375029826513" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ThrillPad" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/trips.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/trip.rb" />
+        <option value="$PROJECT_DIR$/app/views/trip/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/trip/slideshow.json.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/admin/city.rb" />
+        <option value="$PROJECT_DIR$/app/admin/country.rb" />
+        <option value="$PROJECT_DIR$/app/admin/hotel.rb" />
+        <option value="$PROJECT_DIR$/app/admin/hotel_facility.rb" />
+        <option value="$PROJECT_DIR$/app/admin/state.rb" />
+        <option value="$PROJECT_DIR$/app/admin/place.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThrillPad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThrillPad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThrillPad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sites\ThrillPad\app\assets\stylesheets" />
+      <recent name="C:\sites\ThrillPad\app\assets\javascripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Rails.Development: ThrillPad">
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="ThrillPad" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spec" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="ThrillPad" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Production: ThrillPad" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="ThrillPad" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Development: ThrillPad" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="ThrillPad" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: ThrillPad" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: ThrillPad" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e54ce2b-f28a-457e-ae15-59d58a9a4e07" name="Default" comment="" />
+      <created>1374792234830</created>
+      <updated>1374792234830</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12155592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2189394" sideWeight="0.8784441" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.102106966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/trip/create.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trip.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="52" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/trip/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="237" selection-end="237" vertical-scroll-proportion="0.24285714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/trip/slideshow.json.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="230" selection-end="234" vertical-scroll-proportion="0.3469388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="2" selection-start="10916" selection-end="10916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="43" selection-start="7214" selection-end="7214" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="39" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="97" selection-start="225" selection-end="225" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="10" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/city.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/country.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/hotel_facility.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="3" selection-start="38" selection-end="38" vertical-scroll-proportion="0.032945737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/hotel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/state.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="56" selection-end="56" vertical-scroll-proportion="0.09883721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/place.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="56" selection-end="56" vertical-scroll-proportion="0.09883721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

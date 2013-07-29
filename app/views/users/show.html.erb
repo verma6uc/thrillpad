@@ -1,0 +1,32 @@
+<section class="section-wrapper post-w">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+
+        <div class="post-author-w">
+          <h3 class="section-header"><%= @user.name %>  </h3>
+
+          <div class="row">
+            <div class="span3">
+              <div class="post-author-photo hidden-phone">
+                <% if (@user.avatar.blank?) %>
+                    <img alt="Avatar-1" src="http://icons.iconarchive.com/icons/turbomilk/livejournal-10/128/user-male-icon.png"/>
+                <% else %>
+                    <img alt="Avatar-1" src="<%= @user.avatar %>"/>
+                <% end %>
+              </div>
+            </div>
+            <div class="span7" style="margin-left: 100px">
+              <div class="post-author-bio-w">
+
+                <div class="post-author-bio"><%= @user.bio %></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>

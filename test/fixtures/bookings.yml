@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 
+  TActivity_id: MyString
+  user_id: MyString
+  start_time: MyString
+  end_time: MyString
+  date: MyString
+  amount_status: MyString
+  is_confirmed: MyString
+
+two:
+  id: 
+  TActivity_id: MyString
+  user_id: MyString
+  start_time: MyString
+  end_time: MyString
+  date: MyString
+  amount_status: MyString
+  is_confirmed: MyString

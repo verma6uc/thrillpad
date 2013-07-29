@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 
+  title: MyString
+  description: MyText
+  parent: 1
+  slug: MyString
+  avatar1: MyString
+  avatar2: MyString
+  avatar3: MyString
+  avatar4: MyString
+  avatar5: MyString
+  avatar6: MyString
+  tags: MyText
+  hostid: 1
+  is_featured: false
+  is_approved: false
+  price: 1
+
+two:
+  id: 
+  title: MyString
+  description: MyText
+  parent: 1
+  slug: MyString
+  avatar1: MyString
+  avatar2: MyString
+  avatar3: MyString
+  avatar4: MyString
+  avatar5: MyString
+  avatar6: MyString
+  tags: MyText
+  hostid: 1
+  is_featured: false
+  is_approved: false
+  price: 1

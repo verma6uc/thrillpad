@@ -1,0 +1,39 @@
+<title>ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them"/>
+<meta name="keywords" content="India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+<link href="/css/wizard.css" media="all" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="/css/bootstrap-switch.css"/>
+<script src="/js/bootstrap-switch.js"></script>
+<ul class="breadcrumb" style="margin-top: 15px">
+  <li>
+    <a href="/">Home</a>
+  </li>
+  <li class="visible-desktop-inline-block hidden-not-big-desktop">
+    <a href="/hotels"> Hotels</a>
+  </li>
+  <li class="active">
+    <span>New Hotel Wizard</span>
+  </li>
+</ul>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="single-post-w">
+        <h1 class="post-title">Create a new Hotel</h1>
+        <%= render 'form' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+    $().ready(function () {
+        $('.typeahead').typeahead({
+            //name: 'location',
+            prefetch: '/cities.json',
+            limit: 30
+        });
+    });
+</script>

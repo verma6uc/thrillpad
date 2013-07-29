@@ -1,0 +1,91 @@
+<title><%= @location.title %> : ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them. <%= @location.description %>"/>
+<meta name="keywords" content="<%= @location.title %> India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+<link href="/css/bx_styles.css" media="all" rel="stylesheet" type="text/css"/>
+<ul class="breadcrumb" style="margin-top: 15px">
+  <li>
+    <a href="/">Home</a>
+  </li>
+  <li class="active">
+    <span><%= @location.title %></span>
+  </li>
+</ul>
+<ul id="slider1">
+  <% @fstates.each do |state| %>
+      <li class="span2">
+        <div class="white-card">
+          <div class="img-w hover-fader">
+            <a href="/locations/<%= state.country.slug %>/<%= state.slug %>">
+              <img alt="<%= state.title %>" src="<%= state.image1 %>" style="width: 150px; height: 117px"/>
+            <span class="hover-fade">
+              <i class="icon-zoom-in"></i>
+            </span>
+            </a></div>
+          <h5><%= state.title %></h5>
+        </div>
+      </li>
+  <% end %>
+</ul>
+<section class="section-wrapper post-w">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span8">
+        <div class="single-post-w">
+          <h1 class="post-title"><%= @location.title %></h1>
+
+          <div class="post-content">
+            <p class="section-paragraph" style="text-align: justify; font-size: 17px"><%= @location.description.html_safe %></p>
+          </div>
+        </div>
+        <div class="post-comments-w" style="margin-left: 60px">
+          <h3 class="section-header">
+            Places in (<%= @location.states.size %>)
+          </h3>
+          <ul class="post-comments-list">
+            <li>
+              <% @fstates.each_index do |i| %>
+                  <% if (i < 4) %>
+                      <%= mini_block(@fstates[i]).html_safe %>
+
+                  <% end %>
+              <% end %>
+              <% if (@location.states.size > 5) %>
+                  <a href="/locations/scollection/<%= @location.slug %>" class="btn btn-small btn-primary">See all
+                    States in <%= @location.title %></a>
+              <% end %>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="blog-side-bar">
+          <div class="blog-flickr-widget widget-tp">
+            <h3><i class="icon-picture"></i> Gallery</h3>
+            <%= gallery_view(@location).html_safe %>
+          </div>
+          <div class="blog-side-text-block widget-filled widget-yellow">
+            <h3>History of <%= @location.title %></h3>
+
+            <p>
+
+            <p class="section-paragraph" style="text-align: justify; font-size: 17px"><%= @location.history %></p></p>
+          </div>
+
+          <div class="blog-side-text-block widget-filled widget-yellow">
+            <iframe width="325" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<%= @location.map.html_safe %>&output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="http://v3.bxslider.com/sites/all/themes/bx/js/jquery.bxSlider.min.js?mboj73" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#slider1').bxSlider({
+            displaySlideQty: 7,
+            auto: true
+        });
+    });
+</script>

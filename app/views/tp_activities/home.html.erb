@@ -1,0 +1,55 @@
+<title>ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them"/>
+<meta name="keywords" content="India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+
+<div class="container">
+  <div class="row-separated" style="margin-top: 40px; margin-bottom: 40px">
+    <div class="typeahead-demo">
+      <input id="actsearch" class="typeahead tt-query" placeholder="Search places" autocomplete="off" spellcheck="false" dir="auto"
+             style="position: relative;padding: 5px; background-color: transparent;width: 587px;"></input>
+    </div>
+
+  </div>
+
+
+</div>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span12">
+      <h3 class="section-header">Featured Activities</h3>
+    </div>
+    <% @places.each_index do |i| %>
+        <div class="span3" style="margin: 10px; min-height: 550px">
+          <div class="white-card recent-post clearfix">
+            <h5 class="recent-post-header">
+              <a href="/activities/<%= @places[i].slug %>"><%= @places[i].title %> </a>
+            </h5>
+
+            <div class="post-info clearfix">
+
+              <div class="pull-right">
+                <a href="#" class="post-like"><i class="icon-heart"></i>
+                  250
+                </a></div>
+            </div>
+            <img alt="Photo-card-big-6" class="post-image" src="<%= @places[i].image1.thumb %>"/>
+
+            <p class="post-content separated"><%= @places[i].description.truncate(150) %></p>
+            <a href="/activities/<%= @places[i].slug %>" class="btn btn-primary btn-extra pull-right post-btn">Read
+              More &gt;</a>
+          </div>
+        </div>
+    <% end %>
+  </div>
+</div>
+<script>
+    $('#actsearch').typeahead({
+        // name: 'repos'
+        remote: '/activity/jssearch/%QUERY', template: [
+            '<a class="repo-name" href="/activities/{{value}}">{{language}}</a>',
+            // , '<a class="repo-name">{{name}}</a>'
+            // , '<a class="repo-description">{{description}}</a>'
+            , '<p class="repo-description" style="white-space: normal;text-align:right;margin-top:20px">{{description}}</p>'
+        ].join(''), engine: Hogan
+    });
+</script>

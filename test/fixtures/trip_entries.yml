@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ent_id: MyString
+  trip_id: MyString
+  Start_date_time: MyString
+  End_date_time: MyString
+
+two:
+  ent_id: MyString
+  trip_id: MyString
+  Start_date_time: MyString
+  End_date_time: MyString

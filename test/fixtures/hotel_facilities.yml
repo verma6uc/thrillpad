@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 
+  hotel_id: 1
+  24hr_room_service: false
+  airport_transfer: false
+
+two:
+  id: 
+  hotel_id: 1
+  24hr_room_service: false
+  airport_transfer: false

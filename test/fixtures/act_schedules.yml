@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 
+  act_id: 1
+  start_time: 2013-07-02 14:03:46
+  end_time: 2013-07-02 14:03:46
+
+two:
+  id: 
+  act_id: 1
+  start_time: 2013-07-02 14:03:46
+  end_time: 2013-07-02 14:03:46

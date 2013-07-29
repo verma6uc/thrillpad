@@ -1,0 +1,37 @@
+<section class="section-wrapper post-w">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span5">
+        <!-- Drop Down for City-->
+        Choose Destination ::
+        <input id="trip_id" type='text' class='span3' style='margin: 0 auto;'/>
+
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="div1">
+  <div class="row-fluid">
+
+    <% @locations.each_with_index do |place, index| %>
+
+        <div class="thumbnail  widget item span4" style="margin: 5px; width: 300px; min-height: 425px">
+          <img src="<%= place.image1.thumb %>" alt="<%= place.title %>" style="width: 300px"/>
+
+          <div class="caption">
+            <h4 class="name"><%= place.title %></h4>
+
+            <p><%= place.description.truncate(100).html_safe %></p>
+
+            <p><a href="/trip/step2/<%= place.title %>" class="btn btn-primary">Select <%= place.title %></a>
+            </p>
+
+          </div>
+        </div>
+    <% end %>
+  </div>
+</div>
+

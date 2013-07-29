@@ -1,0 +1,145 @@
+<script src="/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<section class="section-wrapper stripped">
+
+  <div id="portfolio">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span4">
+          <h3 class="section-header">Activities List</h3>
+
+        </div>
+        <div id="filters_container" class="span7">
+          <ul id="filters">
+            <li style="list-style: none; float: left; width: 50px">
+              <a href="#" data-filter="*" class="active label">All</a></li>
+            <% @tag_list_main.keys.sort.each do |key| %>
+                <% if !(key == "") %>
+                    <li style="list-style: none; float: left; width: 100px">
+                      <a href="#" data-filter=".<%= key %>" class="label"><%= key %></a></li>
+                <% end %>
+
+            <% end %>
+            <li style="clear: both; list-style: none"/>
+          </ul>
+          <ul id="sort-direction" class="option-set clearfix" data-option-key="sortAscending" style="float: right">
+            <li style="list-style: none;">
+              <a href="#sortAscending=true" data-filter11="true" class="label">sort ascending</a>
+            </li>
+            <li style="list-style: none;">
+              <a href="#sortAscending=false" data-filter11="false" class="label">sort descending</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid">
+
+
+      <div class="row-fluid">
+
+        <div id="gallery_container" style="position: relative; overflow: hidden;" class="isotope">
+          <% @activities.each_with_index do |act, index| %>
+              <div class="photo <%= @tag_list[index] %> isotope-item span4" style="margin: 5px">
+
+                <div class="white-card recent-post clearfix">
+                  <h5 class="recent-post-header">
+                    <a href="/tp_activities/<%= act.slug %>" title="<%= act.title %>"><%= act.title.truncate(30) %></a>
+                  </h5>
+
+                  <div class="post-info clearfix">
+                    <div class="pull-left" style="font-size: 15px">
+                    <span class="post-date">
+                      <a title="<%= act.title %>" href="/locations/<%= act.city.state.country.slug %>/<%= act.city.state.slug %>/<%= act.city.slug %>">
+                        located in <%= act.city.title %>
+                      </a>
+                    </span>
+                      र &nbsp;<span class="number"><%= act.price %></span>/-
+                    </div>
+                    <div class="pull-right">
+
+                      <a href="#" class="btn btn-small btn-primary" style="margin-right: 30px">Buy Now </a>
+
+
+                    </div>
+                  </div>
+                  <img alt="<%= act.title %>" class="post-image" src="<%= act.image1.thumb %>" style="width: 392px;"/>
+
+                  <p class="post-content separated"><%= act.description.truncate(130) %></p>
+                  <a title="<%= act.title %>" href="/activities/<%= act.slug %>" class="btn btn-primary btn-extra">Read
+                    More &gt;</a>
+
+                  <div style="border-top: 1px solid #5DC4DC; margin-top: 10px; padding-top: 10px" class="blog-side-tags widget-tp">
+                    <% if !(act.tags.blank?) %>
+                        <div>Theme :
+                          <% act.tags.split(",").each_index do |j| %>
+                        <span>
+                          <a href="/activity/tags/<%= act.tags.split(",")[j] %>" class="roll-link roll-red">
+                            <span data-title="<%= act.tags.split(",")[j] %>"><%= act.tags.split(",")[j] %></span>
+                          </a>
+                        </span>
+                          <% end %></div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+          <% end %>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+      $(function () {
+
+          var $container = $('#gallery_container'),
+                  $filters = $("#filters a");
+
+          $container.imagesLoaded(function () {
+
+              $container.isotope({
+                          itemSelector: '.photo',
+                          //masonry: {
+                          //columnWidth: 102
+                          //}
+                          getSortData: {
+
+                              number: function ($elem) {
+                                  return parseInt($elem.find('.number').text(), 10);
+                              }
+                          }
+                      }
+              );
+          });
+
+          // filter items when filter link is clicked
+          $filters.click(function () {
+              ///alert('aaa');
+              $filters.removeClass("label-info");
+              $(this).addClass("label-info");
+              var selector = $(this).data('filter');
+              //alert(selector);
+              $container.isotope({ filter: selector });
+              return false;
+          });
+          $sortz = $("#sort-direction a");
+          $sortz.click(function () {
+
+
+              $sortz.removeClass("label-info");
+              $(this).addClass("label-info");
+              //var selector = $(this).data('filter');
+              // if($("#sort-direction")) {
+              if ($(this).html() == 'sort ascending') {
+                  $container.isotope({sortBy: 'number', sortAscending: true });
+              } else if ($(this).html() == 'sort descending') {
+                  $container.isotope({sortBy: 'number', sortAscending: false });
+              }
+              return false;
+          });
+
+
+      });
+  </script>

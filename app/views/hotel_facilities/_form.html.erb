@@ -1,0 +1,38 @@
+<%= form_for @hotel_facility do |f| %>
+    <% if @hotel_facility.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@hotel_facility.errors.count, "error") %> prohibited this hotel_facility from being
+            saved:</h2>
+
+          <ul>
+            <% @hotel_facility.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :id %>
+      <br/>
+      <%= f.text_field :id %>
+    </div>
+    <div class="field">
+      <%= f.label :hotel_id %>
+      <br/>
+      <%= f.number_field :hotel_id %>
+    </div>
+    <div class="field">
+      <%= f.label :hr_room_service %>
+      <br/>
+      <%= f.check_box :hr_room_service %>
+    </div>
+    <div class="field">
+      <%= f.label :airport_transfer %>
+      <br/>
+      <%= f.check_box :airport_transfer %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

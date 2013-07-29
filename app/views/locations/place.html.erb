@@ -1,0 +1,108 @@
+<title><%= @location.title %> : ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them. <%= @location.description %>"/>
+<meta name="keywords" content="<%= @location.title %> India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+
+<link href="/css/bx_styles.css" media="all" rel="stylesheet" type="text/css"/>
+
+<ul class="breadcrumb" style="margin-top: 15px">
+  <li>
+    <a href="/">Home</a>
+  </li>
+  <li class="visible-desktop-inline-block hidden-not-big-desktop">
+    <a href="/locations/<%= @location.city.state.country.slug %>"> <%= @location.city.state.country.title %></a>
+  </li>
+  <li class="visible-desktop-inline-block hidden-not-big-desktop">
+    <a href="/locations/<%= @location.city.state.country.slug %>/<%= @location.city.state.slug %>"> <%= @location.city.state.title %></a>
+  </li>
+  <li class="visible-desktop-inline-block hidden-not-big-desktop">
+    <a href="/locations/<%= @location.city.state.country.slug %>/<%= @location.city.state.slug %>/<%= @location.city.slug %>"> <%= @location.city.title %></a>
+  </li>
+  <li class="active">
+    <span><%= @location.title %></span>
+  </li>
+</ul>
+
+
+<section class="section-wrapper post-w">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span8">
+        <div class="single-post-w">
+          <h1 class="post-title"><%= @location.title %></h1>
+
+          <div class="post-info recent-post recent-post-header">
+            <span class="info-item">
+              in
+              <a class="post-tag" href="/locations/<%= @location.city.state.country.slug %>/<%= @location.city.state.slug %>/<%= @location.city.slug %>">
+                <span class="label label-info"><%= @location.city.title %></span>
+              </a>
+            </span>
+
+          </div>
+
+          <div class="post-content">
+            <p class="section-paragraph" style="text-align: justify; font-size: 17px"><%= @location.description.html_safe %></p>
+          </div>
+        </div>
+
+        <div class="post-comments-w" style="margin-left: 60px">
+          <h3 class="section-header">
+            Places in (<%= @location.city.places.size %>)
+          </h3>
+          <ul class="post-comments-list">
+            <li>
+              <% @location.city.places.each_index do |i| %>
+                  <% if (i < 4) %>
+
+                      <%= mini_block(@location.city.places[i]).html_safe %>
+                  <% end %>
+              <% end %>
+              <% if (@location.city.state.cities.size > 5) %>
+                  <a href="/locations/pcollection/<%= @location.city.slug %>" class="btn btn-small btn-primary">See all
+                    Places in <%= @location.city.title %></a>
+              <% end %>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+      <div class="span4">
+        <div class="blog-side-bar">
+          <div class="blog-categories widget-tp">
+            <h3>
+              <i class="icon-th-list"></i>
+              Activities
+            </h3>
+
+          </div>
+
+          <div class="blog-flickr-widget widget-tp">
+            <h3><i class="icon-picture"></i> Gallery</h3>
+            <%= gallery_view(@location).html_safe %>
+          </div>
+          <div class="blog-side-text-block widget-filled widget-yellow">
+            <h3>History of <%= @location.title %></h3>
+
+            <p>
+
+            <p class="section-paragraph" style="text-align: justify; font-size: 17px"><%= @location.history.html_safe %></p></p>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="http://v3.bxslider.com/sites/all/themes/bx/js/jquery.bxSlider.min.js?mboj73" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#slider1').bxSlider({
+            displaySlideQty: 7,
+            auto: true
+        });
+    });
+</script>

@@ -1,0 +1,33 @@
+{
+    "timeline": {
+        "headline": "<%= @trip.title %>",
+        "type": "default",
+        "text": "<p>Created by <%= @trip.user.name %></p>",
+        "asset": {
+            "media": "<%= @trip.img %>"
+        },
+
+
+        "date": [
+
+            <% @trip.trip_entries.each_with_index do |entry, index| %>
+            <% if !(index==0) %>
+            ,
+            <% end %>
+
+            {
+                "startDate": "<%= entry.start_date_time%>",
+                "endDate": "<%= entry.end_date_time%>",
+                "headline": "<%= @entrymodels[index].title %>",
+                "text": "<p><%= @entrymodels[index].description.truncate(300).gsub('""', '&#38;').gsub(/\r/," ").gsub(/\n/," ") %></p>",
+                "tag": "<%= entry.entity_type%>",
+                "asset": {
+                    "media": "<%= @entrymodels[index].image1 %>",
+                    "thumbnail": "<%= @entrymodels[index].image1.thumb %>"
+                }
+            }
+
+            <% end %>
+        ]
+    }
+}

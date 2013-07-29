@@ -1,0 +1,30 @@
+rails g controller home index home;
+
+
+
+
+rails g model locations id:primary_key title:string  description:text parent:integer type_of_location:string history:text map_url:text slug:string is_featured:boolean state:string is_created:boolean image1:string image2:string image3:string image4:string
+
+
+rails generate migration AddFieldsToUsers name:string slug:title phone_number:string address:text is_host:boolean
+rails g model tactivities id:primary_key title:string  description:text  parent:integer slug:string  
+image1:string image2:string image3:string image4:string image5:string image6:string tags:text hostid:integer is_featured:boolean is_approved:boolean price:integer
+
+rails g model act_schedule id:primary_key act_id:integer start_time:time end_time:time
+ails
+
+rails g model Booking id:primary_key TActivity_id user_id start_time end_time date amount_status is_confirmed
+
+rails g model Invoice  id:primary_key booking_id 
+    
+
+rails g scaffold hotel id:primary_key title:string  image1:string image2:string image3:string image4:string description:text address:text city_id:integer map:string number_of_rooms:integer check_out:string hotel_policies:text slug:string
+
+rails g scaffold hotel_facilities id:primary_key hotel_id:integer 24hr_room_service:boolean airport_transfer:boolean
+
+
+ babysitting:boolean bar_pub:boolean bicycle_rental:boolean business_center:boolean casino:boolean coffee_shop:boolean concierge:boolean disabled_facilities:boolean elevator:boolean executive_floor:boolean family_room:boolean laundry_service_dry_cleaning:boolean meeting_facilities:boolean nightclub:boolean pets_allowed:boolean poolside_bar:boolean restaurant:boolean room_service:boolean safety_deposit_boxes:boolean salon:boolean shops:boolean shuttle_service:boolean smoking_area:boolean tours:boolean wi-fi_in_public_areas:boolean sports_and_recreation	:boolean fitness_center:boolean games_room:boolean garden:boolean golf_course_on_site:boolean golf_course_within_3_km:boolean hot_spring_bath:boolean indoor_pool:boolean jacuzzi:boolean kids_club:boolean massage:boolean outdoor_pool:boolean pool_kids:boolean private_beach:boolean sauna:boolean spa:boolean squash_courts:boolean steamroom:boolean tennis_courts:boolean water_sports_motorized:boolean water_sports_non-motorized:boolean internet_in_rooms	:boolean free_wifi_access:boolean lan_access:boolean parking	:boolean car_park:boolean valet_parking
+
+
+rails g scaffold hotel_room id:primary_key hotel_id:integer title:string  image1:string image2:string price:integer description:text
+

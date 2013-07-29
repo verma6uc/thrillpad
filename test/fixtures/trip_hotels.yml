@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  hotel_id: MyString
+  room_id: MyString
+  start_date: MyString
+  end_date: MyString
+
+two:
+  hotel_id: MyString
+  room_id: MyString
+  start_date: MyString
+  end_date: MyString

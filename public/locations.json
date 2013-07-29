@@ -1,0 +1,500 @@
+[
+
+ 
+
+  {
+    "name": "Assam",
+    "description": "Assam is a northeastern state of India. Its capital is Dispur, located at Guw...",
+    "language": "India",
+    "value": "Assam",
+    "tokens": [
+      "Assam",
+      "Assam"
+    ]
+  },
+
+  {
+    "name": "Goa",
+    "description": "Variously known as &quot;Pearl of the Orient&quot; and a &quot;Tourist Paradise&quot;, the state ...",
+    "language": "India",
+    "value": "Goa",
+    "tokens": [
+      "Goa",
+      "Goa"
+    ]
+  },
+
+  {
+    "name": "Gujarat",
+    "description": "Gujarat is a state in western India. It has an area of 196,204 km2 (75,755 sq...",
+    "language": "India",
+    "value": "Gujarat",
+    "tokens": [
+      "Gujarat",
+      "Gujarat"
+    ]
+  },
+
+  {
+    "name": "Himachal Pradesh",
+    "description": "Popularly known as the Devbhumi ­– &quot;Land of the Gods&quot;, Himachal Pradesh is a ...",
+    "language": "India",
+    "value": "Himachal Pradesh",
+    "tokens": [
+      "Himachal Pradesh",
+      "Himachal Pradesh"
+    ]
+  },
+
+  {
+    "name": "Karnataka",
+    "description": "If you’re looking for variety in your Indian travel experience, Karnataka fit...",
+    "language": "India",
+    "value": "Karnataka",
+    "tokens": [
+      "Karnataka",
+      "Karnataka"
+    ]
+  },
+
+  {
+    "name": "Kerala",
+    "description": "Kerala is where India slips down into second gear, stops to smell the roses a...",
+    "language": "India",
+    "value": "Kerala",
+    "tokens": [
+      "Kerala",
+      "Kerala"
+    ]
+  },
+
+  {
+    "name": "Madhya Pradesh",
+    "description": "Madhya Pradesh (MP) was India’s largest state until tribal Chhattisgarh broke...",
+    "language": "India",
+    "value": "Madhya Pradesh",
+    "tokens": [
+      "Madhya Pradesh",
+      "Madhya Pradesh"
+    ]
+  },
+
+  {
+    "name": "Maharashtra",
+    "description": "Sprawling Maharashtra, India’s second most populous state, stretches from the...",
+    "language": "India",
+    "value": "Maharashtra",
+    "tokens": [
+      "Maharashtra",
+      "Maharashtra"
+    ]
+  },
+
+  {
+    "name": "Rajasthan",
+    "description": "Folklore of heroism and romance resound from the challenging monuments that i...",
+    "language": "India",
+    "value": "Rajasthan",
+    "tokens": [
+      "Rajasthan",
+      "Rajasthan"
+    ]
+  },
+
+  {
+    "name": "Sikkim",
+    "description": "Sikkim is a landlocked Indian state located in the Himalayan mountains. The s...",
+    "language": "India",
+    "value": "Sikkim",
+    "tokens": [
+      "Sikkim",
+      "Sikkim"
+    ]
+  },
+
+  {
+    "name": "Tamil Nadu",
+    "description": "Tamil Nadu literally &quot;Tamil Country&quot;) is one of the 28 states of India. Its c...",
+    "language": "India",
+    "value": "Tamil Nadu",
+    "tokens": [
+      "Tamil Nadu",
+      "Tamil Nadu"
+    ]
+  },
+
+  {
+    "name": "Uttarakhand",
+    "description": "Uttarakhand - the land of gods, the home of Himalayas and truly a paradise on...",
+    "language": "India",
+    "value": "Uttarakhand",
+    "tokens": [
+      "Uttarakhand",
+      "Uttarakhand"
+    ]
+  },
+
+  {
+    "name": "Uttar Pradesh",
+    "description": "
+Known as UP, and often referred to as the cow belt or Hindu belt, India’s m...",
+    "language": "India",
+    "value": "Uttar Pradesh",
+    "tokens": [
+      "Uttar Pradesh",
+      "Uttar Pradesh"
+    ]
+  },
+
+  {
+    "name": "West Bengal",
+    "description": "Emerging from the tempestuous Bay of Bengal in a maze of primeval mangroves, ...",
+    "language": "India",
+    "value": "West Bengal",
+    "tokens": [
+      "West Bengal",
+      "West Bengal"
+    ]
+  },
+
+  {
+    "name": "Chandigarh",
+    "description": "Chandigarh is a city and union territory in India that serves as the capital ...",
+    "language": "India",
+    "value": "Chandigarh",
+    "tokens": [
+      "Chandigarh",
+      "Chandigarh"
+    ]
+  },
+
+  {
+    "name": "Delhi",
+    "description": "Delhi is a city that bridges two diverse worlds. Old Delhi, once the capital ...",
+    "language": "India",
+    "value": "Delhi",
+    "tokens": [
+      "Delhi",
+      "Delhi"
+    ]
+  },
+
+  {
+    "name": "Agra",
+    "description": "Agra’s magnificent white marble Taj Mahal stands like a bulbous beacon, drawi...",
+    "language": "Uttar Pradesh",
+    "value": "Agra",
+    "tokens": [
+      "Agra",
+      "Agra"
+    ]
+  },
+
+  {
+    "name": "Ajmer",
+    "description": "South west of Jaipur, Ajmer is an oasis wrapped in the green hills. The city ...",
+    "language": "Rajasthan",
+    "value": "Ajmer",
+    "tokens": [
+      "Ajmer",
+      "Ajmer"
+    ]
+  },
+
+  {
+    "name": "Allahabad",
+    "description": "Allahabad also known as Prayag, is a city in the north Indian state of Uttar ...",
+    "language": "Uttar Pradesh",
+    "value": "Allahabad",
+    "tokens": [
+      "Allahabad",
+      "Allahabad"
+    ]
+  },
+
+  {
+    "name": "Bikaner",
+    "description": "Lying in the north of the desert State, the city is dotted with scores of san...",
+    "language": "Rajasthan",
+    "value": "Bikaner",
+    "tokens": [
+      "Bikaner",
+      "Bikaner"
+    ]
+  },
+
+  {
+    "name": "Devgarh",
+    "description": "Deogarh is located on the boundaries of Mewar, Marwar and Merwara, about 80 m...",
+    "language": "Rajasthan",
+    "value": "Devgarh",
+    "tokens": [
+      "Devgarh",
+      "Devgarh"
+    ]
+  },
+
+  {
+    "name": "Jaipur",
+    "description": "Jaipur is 260 km from Delhi and 240 km from Agra and forms the golden triangl...",
+    "language": "Rajasthan",
+    "value": "Jaipur",
+    "tokens": [
+      "Jaipur",
+      "Jaipur"
+    ]
+  },
+
+  {
+    "name": "Jaisalmer",
+    "description": "The name Jaisalmer arouses utter magic and vibrancy of the desert. It’s tradi...",
+    "language": "Rajasthan",
+    "value": "Jaisalmer",
+    "tokens": [
+      "Jaisalmer",
+      "Jaisalmer"
+    ]
+  },
+
+  {
+    "name": "Jhansi",
+    "description": "Jhansi is a historic city of northern India, located on the banks of the Pahu...",
+    "language": "Uttar Pradesh",
+    "value": "Jhansi",
+    "tokens": [
+      "Jhansi",
+      "Jhansi"
+    ]
+  },
+
+  {
+    "name": "Jodhpur",
+    "description": "This bustling desert city is the second largest in Rajasthan after Jaipur. It...",
+    "language": "Rajasthan",
+    "value": "Jodhpur",
+    "tokens": [
+      "Jodhpur",
+      "Jodhpur"
+    ]
+  },
+
+  {
+    "name": "Lucknow",
+    "description": "Lucknow is the capital city of the state of Uttar Pradesh in India. This metr...",
+    "language": "Uttar Pradesh",
+    "value": "Lucknow",
+    "tokens": [
+      "Lucknow",
+      "Lucknow"
+    ]
+  },
+
+  {
+    "name": "Udaipur",
+    "description": "Udaipur is often called ‘Venice of the East’. It is also the ‘city of lakes’....",
+    "language": "Rajasthan",
+    "value": "Udaipur",
+    "tokens": [
+      "Udaipur",
+      "Udaipur"
+    ]
+  },
+
+  {
+    "name": "Varanasi",
+    "description": "Varanasi  also Benares, Banaras (Banāras [bəˈnaːrəs] ( listen)) or Kashi  is ...",
+    "language": "Uttar Pradesh",
+    "value": "Varanasi",
+    "tokens": [
+      "Varanasi",
+      "Varanasi"
+    ]
+  },
+
+  {
+    "name": "Taj Mahal",
+    "description": "The Taj Mahal is a white marble mausoleum located in Agra, Uttar Pradesh, Ind...",
+    "language": "Agra",
+    "value": "Taj Mahal",
+    "tokens": [
+      "Taj Mahal",
+      "Taj Mahal"
+    ]
+  },
+
+  {
+    "name": "Bundi",
+    "description": "Bundi is a magnificent town, 36 Kms from Kota, once ruled by the Hada Chauhan...",
+    "language": "Rajasthan",
+    "value": "Bundi",
+    "tokens": [
+      "Bundi",
+      "Bundi"
+    ]
+  },
+
+  {
+    "name": "Dargah Of Khwaja Muin-Ud-Din Chishti",
+    "description": "Moinuddin Chishti Also known as Gharib Nawaz &quot;Benefactor of the Poor&quot; , he is...",
+    "language": "Ajmer",
+    "value": "Dargah Of Khwaja Muin-Ud-Din Chishti",
+    "tokens": [
+      "Dargah Of Khwaja Muin-Ud-Din Chishti",
+      "Dargah Of Khwaja Muin-Ud-Din Chishti"
+    ]
+  },
+
+  {
+    "name": "Chittorgarh",
+    "description": "Chittaurgarh epitomizes Rajput spirit, valour, pride and romance. It reverber...",
+    "language": "Rajasthan",
+    "value": "Chittorgarh",
+    "tokens": [
+      "Chittorgarh",
+      "Chittorgarh"
+    ]
+  },
+
+  {
+    "name": "Sikandra",
+    "description": "The Tomb of Akbar the Great is an important Mughal architectural masterpiece,...",
+    "language": "Agra",
+    "value": "Sikandra",
+    "tokens": [
+      "Sikandra",
+      "Sikandra"
+    ]
+  },
+
+  {
+    "name": "Pushkar",
+    "description": "Pushkar is a sacred town for the Hindus, situated 11 kms. to the North-West o...",
+    "language": "Rajasthan",
+    "value": "Pushkar",
+    "tokens": [
+      "Pushkar",
+      "Pushkar"
+    ]
+  },
+
+  {
+    "name": "Agra Fort",
+    "description": "Agra Fort is located (270 10’ 47’’N &amp; 780 1’ 22’’ E) on the right bank of the...",
+    "language": "Agra",
+    "value": "Agra Fort",
+    "tokens": [
+      "Agra Fort",
+      "Agra Fort"
+    ]
+  },
+
+  {
+    "name": "Itimad-Ud-Daulah",
+    "description": "Itmad-ud-daula has a special place in the chronicles of both history as well ...",
+    "language": "Agra",
+    "value": "Itimad-Ud-Daulah",
+    "tokens": [
+      "Itimad-Ud-Daulah",
+      "Itimad-Ud-Daulah"
+    ]
+  },
+
+  {
+    "name": "Taj Nature Par",
+    "description": "The area is rich in flora and fauna. Pheasants are prime faunal species in ra...",
+    "language": "Agra",
+    "value": "Taj Nature Par",
+    "tokens": [
+      "Taj Nature Par",
+      "Taj Nature Par"
+    ]
+  },
+
+  {
+    "name": "Jhansi Fort",
+    "description": "Jhansi Fort is situated within the city walls of Jhansi in Uttar Pradesh, nor...",
+    "language": "Jhansi",
+    "value": "Jhansi Fort",
+    "tokens": [
+      "Jhansi Fort",
+      "Jhansi Fort"
+    ]
+  },
+
+  {
+    "name": "Amer Fort",
+    "description": "The Amer Fort is situated in Amer, which is 11 kilometers from Jaipur. Amer, ...",
+    "language": "Jaipur",
+    "value": "Amer Fort",
+    "tokens": [
+      "Amer Fort",
+      "Amer Fort"
+    ]
+  },
+
+  {
+    "name": "City Palace",
+    "description": "Located in the heart of the Pink City Jaipur, the City Palace was where the M...",
+    "language": "Jaipur",
+    "value": "City Palace",
+    "tokens": [
+      "City Palace",
+      "City Palace"
+    ]
+  },
+
+  {
+    "name": "Hawa Mahal",
+    "description": "The renowned &#x27;Palace Of The Winds&#x27;, or Hawa Mahal, is one of the prominent to...",
+    "language": "Jaipur",
+    "value": "Hawa Mahal",
+    "tokens": [
+      "Hawa Mahal",
+      "Hawa Mahal"
+    ]
+  },
+
+  {
+    "name": "Jaigarh Fort",
+    "description": "The Jaigarh Fort is a majestic stronghold built by Sawan Jai Singh II. This a...",
+    "language": "Jaipur",
+    "value": "Jaigarh Fort",
+    "tokens": [
+      "Jaigarh Fort",
+      "Jaigarh Fort"
+    ]
+  },
+
+  {
+    "name": "Nahargarh Fort",
+    "description": "The Indian state of Rajasthan is famous for its royal heritage. Formed by the...",
+    "language": "Jaipur",
+    "value": "Nahargarh Fort",
+    "tokens": [
+      "Nahargarh Fort",
+      "Nahargarh Fort"
+    ]
+  },
+
+  {
+    "name": "Birla Mandir in jaipur",
+    "description": "Birla Mandir, Jaipur is a Hindu temple located in Jaipur, India and is part o...",
+    "language": "Jaipur",
+    "value": "Birla Mandir in jaipur",
+    "tokens": [
+      "Birla Mandir in jaipur",
+      "Birla Mandir in jaipur"
+    ]
+  },
+
+  {
+    "name": "Gaitore Ki Chhatriyan",
+    "description": "The royal cremation ground of the Kachhwaha Rajputs, was chosen as the design...",
+    "language": "Jaipur",
+    "value": "Gaitore Ki Chhatriyan",
+    "tokens": [
+      "Gaitore Ki Chhatriyan",
+      "Gaitore Ki Chhatriyan"
+    ]
+  }
+]

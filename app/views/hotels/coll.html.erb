@@ -1,0 +1,53 @@
+<title>ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them"/>
+<meta name="keywords" content="India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+<script src="/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<section class="section-wrapper stripped">
+
+  <div id="portfolio">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span4">
+          <%= @tagline.html_safe %>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="container-fluid">
+
+
+      <div class="row-fluid">
+
+        <div id="gallery_container" style="position: relative; overflow: hidden;" class="isotope">
+          <% @location.hotels.each_with_index do |hotel, index| %>
+              <div class="span4" style="margin: 5px">
+                <div class="white-card recent-post clearfix">
+                  <h5 class="recent-post-header">
+                    <a href="/hotels/<%= hotel.slug %>"><%= hotel.title %>  </a>
+                  </h5>
+
+                  <div class="post-info clearfix">
+                    <div class="pull-left">
+                    <span class="post-date"><a title="<%= hotel.title %>" href="/locations/<%= hotel.city.state.country.slug %>/<%= hotel.city.state.slug %>/<%= hotel.city.slug %>">
+                      located in <%= hotel.city.title %>
+                    </a></span>
+                      <a href="/hotels/<%= hotel.slug %>" class="post-comments"> Rs.
+                        <span class="number"><%= hotel.price %></span>/-</a>
+                    </div>
+                    <div class="pull-right">
+                      <a href="#" class="btn btn-small btn-primary" style="margin-right: 30px">Buy Now </a>
+
+                      </div>
+                  </div>
+                  <img alt="<%= hotel.title %>" class="post-image" src="<%= hotel.image1.thumb %>" style="width: 392px;height: 294px"/>
+
+                  <p class="post-content separated"><%= hotel.description.truncate(300) %></p>
+                  <a href="/hotels/<%= hotel.slug %>" class="btn btn-primary btn-extra pull-right">Read More &gt;</a>
+                </div>
+              </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>

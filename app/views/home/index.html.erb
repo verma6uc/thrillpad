@@ -1,0 +1,100 @@
+<title>ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them"/>
+<meta name="keywords" content="India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+<div class="container-fluid">
+  <header class="launch-head">
+    <h1 style="text-align: center">Customized Trip Planning.</h1>
+
+    <h2 style="text-align: center">Explore interesting things to do in places where you travel</h2>
+  </header>
+
+  <section id="signup-sect">
+    <div class="flex-container">
+      <form class="fancy-form">
+        <div class="controls controls-row hide-me" style="padding-bottom: 10px;padding-right: 33px;">
+          <a href="/locations" id="submit-email" class="span3 btn btn-fancy" type="submit" style="padding-top: 24px;">Explore
+            Destinations</a>
+          <a href="/activity" id="submit-email" class="span3 btn btn-fancy " type="submit" style="padding-top: 24px;">Explore
+            Activities</a>
+        </div>
+
+      </form>
+
+      <div id="share"> <!-- Social -->
+        <ul class="icons">
+          <li class="share-button">
+            <a href="http://twitter.com"><i class="icon-twitter-sign"></i></a></li>
+          <li class="share-button">
+            <a href="http://facebook.com"><i class="icon-facebook-sign"></i></a></li>
+          <li class="share-button">
+            <a href="http://plus.google.com"><i class="icon-google-plus-sign"></i></a></li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="row-fluid">
+    <div class="span3">
+      <h3>Destinations</h3>
+
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui.</p>
+    </div>
+    <div class="span3">
+      <h3>Activities</h3>
+
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui.</p>
+    </div>
+    <div class="span3">
+      <h3>Hotels</h3>
+
+      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+        felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+        massa justo sit amet risus.</p>
+    </div>
+    <div class="span3">
+      <h3>Trip Planning</h3>
+
+      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
+        felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+        massa justo sit amet risus.</p>
+    </div>
+  </section>
+</div>
+<section class="section-wrapper under-slider">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <h3 class="section-header">Popular Activities</h3>
+      </div>
+    </div>
+    <div class="row-fluid">
+
+    </div>
+  </div>
+</section>
+
+<section id="popular_locations" class="section-wrapper stripped">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <h3 class="section-header">Popular Locations</h3>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <% @fplaces.each do |place| %>
+          <%= main_block(place).html_safe %>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+
+
+<div style="margin: 40px">
+  <div class="fb-like-box" data-href="https://www.facebook.com/Thrillpad" data-width="1000" data-height="400" data-show-faces="true" data-stream="false" data-show-border="false" data-header="true"></div>
+</div>

@@ -1,0 +1,45 @@
+<title><%= @location.title %> : ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them. <%= @location.description %>"/>
+<meta name="keywords" content="<%= @location.title %> India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+<section class="section-wrapper">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <h3 class="section-header">Choose Hotel</h3>
+
+        <form action="/trip/step3/" name="trip_step3" method="post">
+          <input type="hidden" name="city_id" value="<%= @location.id %>"/>
+          <input name="start_date" data-format="dd/MM/yyyy" type="date"></input>
+          <input name="end_date" data-format="dd/MM/yyyy" type="date"></input>
+
+          <div class="row-fluid">
+            <ul class="thumbnails">
+              <% @location.hotels.each_with_index do |place, index| %>
+                  <li class="span3" style="margin: 5px">
+                    <div class="thumbnail">
+                      <input name="hotel_id" value="<%= place.id %>" type="checkbox"/>
+                      <img src="<%= place.image1.thumb %>" alt="<%= place.title %>"/>
+
+                      <div class="caption">
+                        <h5><%= place.title %></h5>
+
+                        <p>Room Type: </p>
+
+                        <p><select name="room_type">
+                          <% place.hotel_room.each_with_index do |room, index| %>
+                              <option value="<%= room.id %>"><%= room.title %> (Rs. <%= room.price %>)</option>
+                          <% end %>
+                        </select>
+                          <input type="submit" name="<%= place.id %>" value="Reserve" class="btn btn-primary"> </input>
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+              <% end %>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

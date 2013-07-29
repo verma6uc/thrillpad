@@ -1,0 +1,15 @@
+[
+<%  @locs.each_index do |i|  %>
+
+{
+  "name": "<%= @locs[i].title %>",
+  "description": "<%= @locs[i].description.truncate(80) %>",
+  "language": "<%= @par[i].title %>",
+  "value": "<%= @locs[i].title %>",
+  "tokens": [
+    "<%= @locs[i].title %>",
+    "<%= @locs[i].title %>"
+  ]
+},
+<% end %>
+]

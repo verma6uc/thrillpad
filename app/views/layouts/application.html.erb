@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link href="/css/theme_venera_blue-d9e6694071afd5b701edcffbf1bc0014.css" media="all" rel="stylesheet" type="text/css"/>
+
+
+  <link href="http://fonts.googleapis.com/css?family=Abel:400|Oswald:300,400,700" media="all" rel="stylesheet" type="text/css"/>
+  <meta content="authenticity_token" name="csrf-param"/>
+  <meta content="xRu3yFLfRIWB5CaksEMYJPQKkPjr9smfAexGuNOHaJE=" name="csrf-token"/>
+
+  <script src="/js/hogan-2.0.0.js"></script>
+  <%= javascript_include_tag "application" %>
+  <script src="/js/jquery.isotope.js"></script>
+
+</head>
+
+<body style="background: url('/img/slider-noise-blue-bg.jpg')" id="<%= controller_name %>-<%= action_name %>">
+
+<%= render 'layouts/navigation' %>
+<% flash.each do |key, value| %>
+    <div class="<%= flash_class(key) %>">
+      <%= value.html_safe() %>
+    </div>
+<% end %>
+<%= yield %>
+
+<%= render 'layouts/fnavigation' %>
+
+</body>
+
+
+</html>

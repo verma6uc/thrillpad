@@ -1,0 +1,103 @@
+<title> ThrillPad : Travel Planning : Powerful Travel Planner</title>
+<meta name="description" content="ThrillPad: Powerful Travel Planner, We help you build interesting trip & buy them. <%= @location.description %>"/>
+<meta name="keywords" content="<%= @location.title %> India Tourism Travel, Book Flight Tickets, Unique Activities, Hotel Bookings, Restaurants in India, Powerful Travel Planner"/>
+<section class="section-wrapper">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <h3 class="section-header">Create a Schedule</h3>
+      </div>
+      <form id="create_trip_id" name="create_trip" method="post" action="/trip/create" onsubmit="greeting()">
+        <input type="hidden" name="drag_list" id="drap_list_keeper" value="aaaaa">
+        <input type="submit" value="Create Trip" class="btn btn-primary"> </input>
+        <div class="span6">
+          <ul class="thumbnails">
+            <% @places.each_with_index do |place, index| %>
+                <li class="span4  dropppp" style="margin: 5px; z-index: 5" id="place_<%= place.id %>">
+                  <div class="thumbnail">
+                    <div class="caption">
+                      <p>
+                        <img src="<%= place.image1.thumb %>" alt="<%= place.title %>" style="width: 40px"/> <%= place.title %>
+
+                      </p>
+                    </div>
+                  </div>
+                </li>
+            <% end %>
+          </ul>
+
+          <ul class="thumbnails">
+            <% @acts.each_with_index do |place, index| %>
+                <li class="span4 dropppp" style="margin: 5px; z-index: 5" id="act_<%= place.id %>">>
+                  <div class="thumbnail">
+                    <div class="caption">
+                      <p>
+                        <img src="<%= place.image1.thumb %>" alt="<%= place.title %>" style="width: 40px"/><%= place.title %>
+
+                      </p>
+                    </div>
+                  </div>
+                </li>
+            <% end %>
+          </ul>
+        </div>
+        <div class="span5">
+          <div class="timeline">
+
+            <% @sch_blank.each_with_index do |date_time, index| %>
+            <div class="timeslot" style="height: 90px;">
+              <div class="task" id="<%= date_time %>">
+                     <span>
+                     <span class="type"><%= date_time %></span>
+                     <span class="details slotzz" style="height: 55px">
+                     </span>
+                     </span>
+
+                <div class="arrow"></div>
+              </div>
+              <div class="icon">
+                <i class="icon-map-marker"></i>
+              </div>
+              <div class="time">
+                <%= date_time %>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <% end %>
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<script type="text/javascript">
+
+
+    $(function () {
+        $(".dropppp").draggable();
+        $(".task").droppable({
+            drop: function (event, ui) {
+
+                console.log("Sort data:  " + $("#drap_list_keeper").attr("value"));
+                //console.log("-----------------  " + " '"+$(this).attr("id") +"#" +ui.draggable.attr("id") +"', ");
+                $("#drap_list_keeper").val($("#drap_list_keeper").attr("value") + " '" + $(this).attr("id") + "#" + ui.draggable.attr("id") + "', ");
+                //console.log("Sort data:  " + $("#drap_list_keeper").val);
+                $(this)
+                        .addClass("ui-state-highlight")
+                        .find("p")
+                        .html("Dropped!");
+            }
+        });
+    });
+
+    function greeting()
+    {
+
+        $("#create_trip").submit()
+    }
+
+</script>
